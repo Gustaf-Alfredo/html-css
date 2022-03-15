@@ -7,3 +7,66 @@
     padding: 0px;
     margin: 0px;
 }
+
+:root {
+    --fonte-destaque: 'Passion One', cursive;
+    --fonte-padrao: 'Sriracha', cursive;
+
+    --cor1: black;
+}
+
+
+header {
+    background-color: var(--cor1);
+    color: white;
+    padding: 3em;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 130px;
+    font-variant: small-caps;
+    
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    font-family: var(--fonte-padrao);
+    
+    
+}
+
+main p {
+    /*margin: 20px 40px 20px 60px;*/
+    margin-top: 80px ;
+    margin-right: 40px;
+    margin-bottom: 180px;
+    margin-left: 30px;
+    font-size: 45px;
+    
+    
+}
+
+main p.image {
+    
+    
+}
+
+main p#q1{
+    background-color: red;
+    background-image: url('imagens/img1.jpg');
+}
+
+main p#q2 {
+}
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+}
