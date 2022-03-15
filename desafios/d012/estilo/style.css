@@ -21,6 +21,7 @@ header {
     color: white;
     padding: 3em;
     text-align: center;
+    min-height: 150px;
 }
 
 header > h1 {
@@ -37,6 +38,9 @@ header > p {
 
 main {
     font-family: var(--fonte-padrao);
+    min-width: 300px;
+    max-width: 1000px;
+    
     
     
 }
@@ -52,18 +56,26 @@ main p {
     
 }
 
-main p.image {
-    
-    
+main div#q1{
+    background-color: #000E00;
+    max-width: 43%;
+    margin-left: 40px;
+    color: white;
+    border-radius: 5px;
 }
 
-main p#q1{
-    background-color: red;
-    background-image: url('imagens/img1.jpg');
+main p.paragrafo {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-main p#q2 {
+main div.image#q2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.567), rgba(0, 0, 0, 0.452));
+    max-width: 43%;
+    margin-left: 40px;
+    color: white;
 }
+
 
 footer {
     background-color: var(--cor1);
